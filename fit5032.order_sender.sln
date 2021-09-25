@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fit5032.order_sender", "fit5032.order_sender\fit5032.order_sender.csproj", "{90973339-119F-464B-B90B-C3876059C574}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90973339-119F-464B-B90B-C3876059C574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90973339-119F-464B-B90B-C3876059C574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90973339-119F-464B-B90B-C3876059C574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90973339-119F-464B-B90B-C3876059C574}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CF5CBE0-E2E8-4832-8D31-C220A4BDECD9}
+	EndGlobalSection
+EndGlobal
