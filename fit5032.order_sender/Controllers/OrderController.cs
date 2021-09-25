@@ -22,7 +22,7 @@ namespace fit5032.order_sender.Controllers
         // GET: OrderController
         public ActionResult Index()
         {
-            return View(new List<OrderViewModel>());
+            return View();
         }
 
         // GET: OrderController/Details/5
@@ -55,7 +55,7 @@ namespace fit5032.order_sender.Controllers
                 };
 
                 await _serviceBusSenderService.SendMessageAsync(orderMessage, cancellationToken);
-                return RedirectToAction(nameof(Index));
+                return View();
             }
             catch
             {
